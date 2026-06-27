@@ -54,7 +54,7 @@ common:
     url: https://www.databricks.com/product/machine-learning/mosaic-ai-model-training
   - type: Documentation
     url: https://docs.mosaicml.com/en/latest/
-  - type: SDK
+  - type: SDKs
     url: https://docs.mosaicml.com/projects/mcli/en/latest/
   - type: PretrainingAPI
     url: https://docs.mosaicml.com/projects/mcli/en/latest/training/pretraining_api.html
