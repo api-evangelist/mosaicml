@@ -21,9 +21,20 @@ description: >-
   account; pricing is consumption-based via Databricks DBU billing rather than
   an independent MosaicML pricing page.
 type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 position: Provider
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mosaicml.png
 tags:
   - Artificial Intelligence
   - Foundation Models
