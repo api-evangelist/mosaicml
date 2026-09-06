@@ -1,0 +1,54 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/user/mosaicml/ ; https://github.com/mosaicml
+packages:
+  - language: python
+    registry: pypi
+    name: mosaicml
+    url: https://pypi.org/project/mosaicml/
+    install: pip install mosaicml
+    version: 0.32.1
+    official: true
+    summary: >-
+      Composer - a PyTorch library that enables you to train neural networks
+      faster, at lower cost, and to higher accuracy.
+    source: https://github.com/mosaicml/composer
+  - language: python
+    registry: pypi
+    name: llm-foundry
+    url: https://pypi.org/project/llm-foundry/
+    install: pip install llm-foundry
+    version: 0.22.0
+    official: true
+    summary: >-
+      LLM Foundry - code for training, finetuning, evaluating and deploying
+      large language models with Composer and the MosaicML platform.
+    source: https://github.com/mosaicml/llm-foundry
+  - language: python
+    registry: pypi
+    name: mosaicml-streaming
+    url: https://pypi.org/project/mosaicml-streaming/
+    install: pip install mosaicml-streaming
+    version: 0.13.0
+    official: true
+    summary: >-
+      Streaming - create PyTorch compatible datasets that can be streamed from
+      cloud-based object stores.
+    source: https://github.com/mosaicml/streaming
+  - language: python
+    registry: pypi
+    name: mosaicml-cli
+    url: https://pypi.org/project/mosaicml-cli/
+    install: pip install mosaicml-cli
+    version: 0.8.3
+    official: true
+    imports_as: mcli
+    summary: >-
+      Interact with Databricks Mosaic AI training from Python or a command-line
+      interface (the mcli tool).
+    source: https://github.com/mosaicml/mosaicml-cli
+notes: >-
+  All packages are published by the mosaicml org on PyPI and GitHub and are
+  first-party. The unscoped PyPI name "mcli" is an UNRELATED third-party project
+  (Monaize MarketMaker CLI) and is deliberately excluded. No first-party npm,
+  Maven, NuGet, RubyGems, Go-module, Packagist, or crates.io packages were found.

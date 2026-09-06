@@ -84,6 +84,34 @@ modified: '2026-05-25'
 specificationVersion: '0.23'
 apis: []
 common:
+  - type: IssueTracker
+    url: https://github.com/mosaicml/composer/issues
+  - type: Releases
+    url: https://github.com/mosaicml/composer/releases
+  - type: CodeOfConduct
+    url: https://github.com/mosaicml/composer/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/mosaicml/composer/blob/main/CONTRIBUTING.md
+  - type: License
+    url: https://github.com/mosaicml/composer/blob/main/LICENSE
+  - type: DeveloperPortal
+    url: https://docs.mosaicml.com/en/latest/
+  - type: GettingStarted
+    url: https://docs.mosaicml.com/projects/composer/en/latest/getting_started/installation.html
+  - type: GitHubOrganization
+    url: https://github.com/mosaicml
+  - type: SourceCode
+    url: https://github.com/mosaicml/composer
+  - type: Packages
+    url: packages/mosaicml-packages.yml
+  - type: CLI
+    url: cli/mosaicml-cli.yml
+  - type: ChangeLog
+    url: changelog/mosaicml-changelog.yml
+  - type: LLMsTxt
+    url: llms/mosaicml-llms.txt
+  - type: WellKnown
+    url: well-known/mosaicml-well-known.yml
   - type: VulnerabilityDisclosure
     url: security/mosaicml-vulnerability-disclosure.yml
   - type: DomainSecurity

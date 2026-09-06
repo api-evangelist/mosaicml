@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/mosaicml/composer/releases
+scheme: semver
+project: composer
+current_version: 0.32.1
+docs: https://github.com/mosaicml/composer/releases
+notes: >-
+  MosaicML publishes dated, versioned release notes per open-source project on
+  GitHub Releases (no single company-wide changelog page). The recent window
+  below is from the flagship Composer library; each of llm-foundry, streaming,
+  and mosaicml-cli maintains its own GitHub Releases stream.
+entries:
+  - version: v0.32.1
+    date: '2025-07-26'
+    type: patch
+  - version: v0.32.0
+    date: '2025-07-15'
+    type: minor
+  - version: v0.31.0
+    date: '2025-05-28'
+    type: minor
+  - version: v0.30.0
+    date: '2025-04-04'
+    type: minor
+  - version: v0.29.0
+    date: '2025-02-25'
+    type: minor

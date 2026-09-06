@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of /.well-known/ on the MosaicML hosts
+hosts:
+  - host: https://www.mosaicml.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /llms.txt
+        status: 404
+  - host: https://docs.mosaicml.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on the MosaicML hosts.
+  www.mosaicml.com 301-redirects to Databricks. Absence recorded as valid data.

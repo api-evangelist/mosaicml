@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.mosaicml.com/projects/mcli/en/latest/ ; https://pypi.org/project/mosaicml-cli/
+cli:
+  name: mcli
+  package: mosaicml-cli
+  version: 0.8.3
+  binary: mcli
+  docs: https://docs.mosaicml.com/projects/mcli/en/latest/
+  summary: >-
+    The MosaicML / Databricks Mosaic AI command-line interface for launching and
+    managing large-scale model training and inference runs on the platform.
+  install:
+    - method: pip
+      command: pip install mosaicml-cli
+  command_groups:
+    - group: init
+      purpose: Configure the CLI, set the API key, and connect to the platform.
+    - group: create
+      purpose: Create runs, clusters, secrets, and deployments.
+    - group: get
+      purpose: List and inspect runs, clusters, deployments, secrets, and runs logs.
+    - group: run
+      purpose: Launch and manage training/finetuning runs from a YAML run config.
+    - group: logs
+      purpose: Stream logs for an active or completed run.
+    - group: stop / delete
+      purpose: Stop active runs/deployments and delete platform resources.
+    - group: deploy
+      purpose: Create and manage inference deployments (legacy MosaicML Inference).
+  notes: >-
+    Command surface is grouped from the published mcli documentation. The Python
+    package imports as `mcli`. The managed platform the CLI targets is now
+    Databricks Mosaic AI following the 2023 acquisition.
